@@ -3,6 +3,7 @@ const sendBtn = document.getElementById("send");
 const inputName = document.getElementById("name-input");
 const input = document.getElementById("container");
 
+
 // when website is loaded, chatbot asks the 1st quest.
 const greetUser = () => {
      showMessage('Hello Cat-lover, Im Kenta Kofot! What´s your name?',
@@ -42,9 +43,9 @@ const newbot = (userName) => {
 const ask = () => {
 
    const Ask1 = document.getElementById('Ask1');
-const Ask2 = document.getElementById('Ask2');
-  Ask1Answer = document.getElementById("Ask1").innerText;
-  Ask2Answer = document.getElementById("Ask2").innerText;
+   const Ask2 = document.getElementById('Ask2');
+   Ask1Answer = document.getElementById("Ask1").innerText;
+   Ask2Answer = document.getElementById("Ask2").innerText;
 
    Ask1.addEventListener('click', () => {
     showMessage (`${Ask1Answer}`, "user");

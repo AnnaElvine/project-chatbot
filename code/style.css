@@ -4,7 +4,6 @@ body {
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
 h1 {
   font-size: 44px;
   color: rgb(255, 251, 251);
@@ -14,12 +13,11 @@ h1 {
 section#chat {
   overflow-x:hidden;
 }
-
 main {
   background: rgb(180, 141, 164);
   width: 100%;
   max-width: 700px;
-  height: 600px;
+  height: 500px;
   margin: auto;
   border-radius: 40px;
   padding: 30px;
@@ -29,13 +27,11 @@ main {
   justify-content: space-around;
   padding-bottom: 20px;
 }
-
 form {
   display: flex;
   width: 100%;
   align-items: center;
 }
-
 input {
   box-sizing: border-box;
   border: none;
@@ -49,7 +45,6 @@ input {
   line-height: 24px;
   flex: 1;
 }
-
 button {
   background-color: rgb(211, 181, 198);
   color: black;
@@ -62,6 +57,15 @@ button {
   margin: 5px;
   cursor: pointer;
 }
+button:hover {
+  background-color: rgb(87, 27, 62);
+  color: white;
+}
+
+
+
+
+// user and bot messages
 
 .chat {
   overflow: scroll;
@@ -78,13 +82,11 @@ button {
   flex-shrink: 0;
   margin: 16px 0 0 8px;
 }
-
 .user-msg img,
 .bot-msg img {
   width: 40px;
   height: 40px;
 }
-
 .bubble {
   background: rgb(247, 244, 246);
   max-width: 40%;
@@ -94,7 +96,6 @@ button {
   font-size: 15px;
   line-height: 26px;
 }
-
 .user-bubble {
   border-radius: 24px 0 24px 24px;
   margin-right: 8px;
